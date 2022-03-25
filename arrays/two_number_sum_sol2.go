@@ -1,4 +1,4 @@
-package main
+package arrays
 
 // Category: arrays
 // Difficulty: Easy
