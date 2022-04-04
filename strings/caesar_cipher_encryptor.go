@@ -3,6 +3,8 @@ package strings
 // Category: strings
 // Difficulty: Easy
 
+// Given a string and a key, output the given ceaser cipher for that string
+
 func KeyFromHashMapValue(hashMap map[byte]int, value int) byte {
 	var returnValue byte
 	for k, v := range hashMap {
