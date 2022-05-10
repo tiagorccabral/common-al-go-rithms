@@ -1,5 +1,10 @@
 package graphs
 
+// Category: graphs
+// Difficulty: Medium
+
+// Given a graph, return an array with all the elements of the array in BFS (breadth first search) order
+
 type Node struct {
 	Name     string
 	Children []*Node
