@@ -1,5 +1,13 @@
 package stacks
 
+// Category: stacks
+// Difficulty: Medium
+
+// Given a string containing a number of bracks, determine if the brackets are balanced or not.
+
+// Input: "([])(){}(())()()"
+// output: true
+
 var openingChars = map[rune]bool{
 	'(': true,
 	'[': true,
